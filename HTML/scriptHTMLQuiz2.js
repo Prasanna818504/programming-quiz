@@ -1,6 +1,6 @@
 const questions=[
     {
-        question: "What is the purpose of the HTML '<input>' element?",
+        question: "What is the purpose of the HTML '&lt;input&gt' element?",
         answers: [
             { text: "To create a link to an external stylesheet.", correct: false },
             { text: "To define a paragraph of text.", correct: false },
@@ -11,10 +11,10 @@ const questions=[
     {
         question: "Which HTML tag is used to create a bulleted list?",
         answers: [
-            { text: "<ul>", correct: true },
-            { text: "<ol>", correct: false },
-            { text: "<li>", correct: false },
-            { text: "<list>", correct: false }
+            { text: "&lt;ul&gt", correct: true },
+            { text: "&lt;ol&gt", correct: false },
+            { text: "&lt;li&gt", correct: false },
+            { text: "&lt;list&gt", correct: false }
         ]
     },
     {
@@ -65,10 +65,10 @@ const questions=[
     {
         question: "Which HTML tag is used to define the largest heading?",
         answers: [
-            { text: "<h2>", correct: false },
-            { text: "<h3>", correct: false },
-            { text: "<h1>", correct: true },
-            { text: "<heading>", correct: false }
+            { text: "&lt;h2&gt", correct: false },
+            { text: "&lt;h3&gt", correct: false },
+            { text: "&lt;h1&gt", correct: true },
+            { text: "&lt;heading&gt", correct: false }
         ]
     },
     {
